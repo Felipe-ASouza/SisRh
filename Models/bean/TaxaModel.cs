@@ -13,5 +13,7 @@ namespace SisRH_Desktop.Model
         double valor_base { get; set; }
         int desconto_acresimo { get; set; }
         int ativo { get; set; }
+        HoleriteModel holerite { get; set; }
+        FuncionarioModel funcionario { get; set; }
     }
 }
