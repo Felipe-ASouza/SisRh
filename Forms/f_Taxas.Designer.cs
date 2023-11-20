@@ -28,130 +28,154 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.AdicionarNovaTaxa = new System.Windows.Forms.Label();
+            this.textTaxa = new System.Windows.Forms.TextBox();
+            this.textValor = new System.Windows.Forms.TextBox();
+            this.checkBoxDesconto = new System.Windows.Forms.CheckBox();
+            this.checkBoxAcrescimo = new System.Windows.Forms.CheckBox();
+            this.labelTaxa = new System.Windows.Forms.Label();
+            this.labelValor = new System.Windows.Forms.Label();
+            this.labelTipo = new System.Windows.Forms.Label();
+            this.buttonAdicionar = new System.Windows.Forms.Button();
+            this.labelFuncionario = new System.Windows.Forms.Label();
+            this.textFuncionario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label5
+            // AdicionarNovaTaxa
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(124)))), ((int)(((byte)(243)))));
-            this.label5.Location = new System.Drawing.Point(61, 77);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(195, 25);
-            this.label5.TabIndex = 73;
-            this.label5.Text = "Adicionar Nova Taxa";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.AdicionarNovaTaxa.AutoSize = true;
+            this.AdicionarNovaTaxa.BackColor = System.Drawing.Color.Transparent;
+            this.AdicionarNovaTaxa.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdicionarNovaTaxa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(124)))), ((int)(((byte)(243)))));
+            this.AdicionarNovaTaxa.Location = new System.Drawing.Point(158, 85);
+            this.AdicionarNovaTaxa.Name = "AdicionarNovaTaxa";
+            this.AdicionarNovaTaxa.Size = new System.Drawing.Size(195, 25);
+            this.AdicionarNovaTaxa.TabIndex = 73;
+            this.AdicionarNovaTaxa.Text = "Adicionar Nova Taxa";
             // 
-            // textBox1
+            // textTaxa
             // 
-            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(148, 170);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(379, 27);
-            this.textBox1.TabIndex = 74;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textTaxa.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textTaxa.Location = new System.Drawing.Point(127, 166);
+            this.textTaxa.Name = "textTaxa";
+            this.textTaxa.Size = new System.Drawing.Size(379, 27);
+            this.textTaxa.TabIndex = 74;
+            this.textTaxa.TextChanged += new System.EventHandler(this.textTaxa_TextChanged);
             // 
-            // textBox2
+            // textValor
             // 
-            this.textBox2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(148, 234);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(379, 27);
-            this.textBox2.TabIndex = 75;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textValor.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textValor.Location = new System.Drawing.Point(127, 210);
+            this.textValor.Name = "textValor";
+            this.textValor.Size = new System.Drawing.Size(379, 27);
+            this.textValor.TabIndex = 75;
+            this.textValor.TextChanged += new System.EventHandler(this.textValor_TextChanged);
             // 
-            // checkBox1
+            // checkBoxDesconto
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(148, 304);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(91, 24);
-            this.checkBox1.TabIndex = 76;
-            this.checkBox1.Text = "Desconto";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBoxDesconto.AutoSize = true;
+            this.checkBoxDesconto.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDesconto.Location = new System.Drawing.Point(171, 247);
+            this.checkBoxDesconto.Name = "checkBoxDesconto";
+            this.checkBoxDesconto.Size = new System.Drawing.Size(91, 24);
+            this.checkBoxDesconto.TabIndex = 76;
+            this.checkBoxDesconto.Text = "Desconto";
+            this.checkBoxDesconto.UseVisualStyleBackColor = true;
+            this.checkBoxDesconto.CheckedChanged += new System.EventHandler(this.checkBoxDesconto_CheckedChanged);
             // 
-            // checkBox2
+            // checkBoxAcrescimo
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(275, 304);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(97, 24);
-            this.checkBox2.TabIndex = 77;
-            this.checkBox2.Text = "Acréscimo";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.checkBoxAcrescimo.AutoSize = true;
+            this.checkBoxAcrescimo.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxAcrescimo.Location = new System.Drawing.Point(268, 247);
+            this.checkBoxAcrescimo.Name = "checkBoxAcrescimo";
+            this.checkBoxAcrescimo.Size = new System.Drawing.Size(97, 24);
+            this.checkBoxAcrescimo.TabIndex = 77;
+            this.checkBoxAcrescimo.Text = "Acréscimo";
+            this.checkBoxAcrescimo.UseVisualStyleBackColor = true;
+            this.checkBoxAcrescimo.CheckedChanged += new System.EventHandler(this.checkBoxAcrescimo_CheckedChanged);
             // 
-            // label3
+            // labelTaxa
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(62, 173);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 20);
-            this.label3.TabIndex = 78;
-            this.label3.Text = "Nome:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.labelTaxa.AutoSize = true;
+            this.labelTaxa.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTaxa.Location = new System.Drawing.Point(80, 169);
+            this.labelTaxa.Name = "labelTaxa";
+            this.labelTaxa.Size = new System.Drawing.Size(41, 20);
+            this.labelTaxa.TabIndex = 78;
+            this.labelTaxa.Text = "Taxa:";
+            this.labelTaxa.Click += new System.EventHandler(this.labelTaxa_Click);
             // 
-            // label4
+            // labelValor
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(62, 234);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 20);
-            this.label4.TabIndex = 79;
-            this.label4.Text = "Valor(%):";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.labelValor.AutoSize = true;
+            this.labelValor.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValor.Location = new System.Drawing.Point(53, 213);
+            this.labelValor.Name = "labelValor";
+            this.labelValor.Size = new System.Drawing.Size(68, 20);
+            this.labelValor.TabIndex = 79;
+            this.labelValor.Text = "Valor(%):";
+            this.labelValor.Click += new System.EventHandler(this.labelValor_Click);
             // 
-            // label6
+            // labelTipo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(73, 304);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 20);
-            this.label6.TabIndex = 80;
-            this.label6.Text = "Tipo:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.labelTipo.AutoSize = true;
+            this.labelTipo.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTipo.Location = new System.Drawing.Point(123, 247);
+            this.labelTipo.Name = "labelTipo";
+            this.labelTipo.Size = new System.Drawing.Size(42, 20);
+            this.labelTipo.TabIndex = 80;
+            this.labelTipo.Text = "Tipo:";
+            this.labelTipo.Click += new System.EventHandler(this.labelTipo_Click);
             // 
-            // button7
+            // buttonAdicionar
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(124)))), ((int)(((byte)(243)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(479, 387);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(129, 26);
-            this.button7.TabIndex = 81;
-            this.button7.Text = "Adicionar";
-            this.button7.UseVisualStyleBackColor = false;
+            this.buttonAdicionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(124)))), ((int)(((byte)(243)))));
+            this.buttonAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdicionar.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAdicionar.ForeColor = System.Drawing.Color.White;
+            this.buttonAdicionar.Location = new System.Drawing.Point(377, 245);
+            this.buttonAdicionar.Name = "buttonAdicionar";
+            this.buttonAdicionar.Size = new System.Drawing.Size(129, 26);
+            this.buttonAdicionar.TabIndex = 81;
+            this.buttonAdicionar.Text = "Adicionar";
+            this.buttonAdicionar.UseVisualStyleBackColor = false;
+            this.buttonAdicionar.Click += new System.EventHandler(this.buttonAdicionar_Click);
+            // 
+            // labelFuncionario
+            // 
+            this.labelFuncionario.AutoSize = true;
+            this.labelFuncionario.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFuncionario.Location = new System.Drawing.Point(32, 127);
+            this.labelFuncionario.Name = "labelFuncionario";
+            this.labelFuncionario.Size = new System.Drawing.Size(89, 20);
+            this.labelFuncionario.TabIndex = 82;
+            this.labelFuncionario.Text = "Funcionário:";
+            this.labelFuncionario.Click += new System.EventHandler(this.labelFuncionario_Click);
+            // 
+            // textFuncionario
+            // 
+            this.textFuncionario.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textFuncionario.Location = new System.Drawing.Point(127, 127);
+            this.textFuncionario.Name = "textFuncionario";
+            this.textFuncionario.Size = new System.Drawing.Size(379, 27);
+            this.textFuncionario.TabIndex = 83;
+            this.textFuncionario.TextChanged += new System.EventHandler(this.textFuncionario_TextChanged);
             // 
             // f_Taxas
             // 
-            this.ClientSize = new System.Drawing.Size(682, 575);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(682, 511);
+            this.Controls.Add(this.textFuncionario);
+            this.Controls.Add(this.labelFuncionario);
+            this.Controls.Add(this.buttonAdicionar);
+            this.Controls.Add(this.labelTipo);
+            this.Controls.Add(this.labelValor);
+            this.Controls.Add(this.labelTaxa);
+            this.Controls.Add(this.checkBoxAcrescimo);
+            this.Controls.Add(this.checkBoxDesconto);
+            this.Controls.Add(this.textValor);
+            this.Controls.Add(this.textTaxa);
+            this.Controls.Add(this.AdicionarNovaTaxa);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -159,21 +183,22 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Sis.RH";
-            this.Load += new System.EventHandler(this.f_Taxas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label AdicionarNovaTaxa;
+        private System.Windows.Forms.TextBox textTaxa;
+        private System.Windows.Forms.TextBox textValor;
+        private System.Windows.Forms.CheckBox checkBoxDesconto;
+        private System.Windows.Forms.CheckBox checkBoxAcrescimo;
+        private System.Windows.Forms.Label labelTaxa;
+        private System.Windows.Forms.Label labelValor;
+        private System.Windows.Forms.Label labelTipo;
+        private System.Windows.Forms.Button buttonAdicionar;
+        private System.Windows.Forms.Label labelFuncionario;
+        private System.Windows.Forms.TextBox textFuncionario;
     }
 }
